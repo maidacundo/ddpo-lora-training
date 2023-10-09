@@ -10,3 +10,4 @@ ml-collections
 opencv-python
 roboflow
 Pillow
+triton

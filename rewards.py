@@ -24,3 +24,9 @@ def jpeg_incompressibility(images, masks):
 def jpeg_compressibility(images, masks):
     rew = jpeg_incompressibility(images, masks)
     return -rew
+
+
+def aesthetic_score(scorer, images):
+    images = (images * 255).round().clamp(0, 255).to(torch.uint8)
+    scores = scorer(images)
+    return scores
