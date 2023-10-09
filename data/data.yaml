@@ -1,0 +1,12 @@
+names:
+- white-walls
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: white-facades
+  url: https://universe.roboflow.com/arked/white-facades/dataset/1
+  version: 1
+  workspace: arked
+test: ../test/images
+train: white-facades-1/train/images
+val: white-facades-1/valid/images

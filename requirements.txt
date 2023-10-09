@@ -1,0 +1,9 @@
+diffusers 
+transformers 
+accelerate
+trl
+wandb 
+omegaconf
+matplotlib
+torchvision
+ml-collections
